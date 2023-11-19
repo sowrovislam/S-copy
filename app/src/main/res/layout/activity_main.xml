@@ -23,7 +23,7 @@
             <com.google.android.material.appbar.AppBarLayout
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="#7FE817">
+                android:background="#FF9800">
 
 
                 <com.google.android.material.appbar.MaterialToolbar
@@ -46,6 +46,7 @@
             <FrameLayout
                 android:id="@+id/frameLayout"
                 android:layout_width="match_parent"
+                android:background="#BEC9CA"
                 android:layout_height="match_parent"
                 android:layout_marginTop="?attr/actionBarSize"/>
 
