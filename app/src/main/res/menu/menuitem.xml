@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:title="Home"
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:checkable="true"
+            android:iconTint="@color/white"
+            />
+
+
+
+        <item
+            android:title="Contacts"
+            android:id="@+id/numbar"
+            android:icon="@drawable/baseline_contact_phone_24"
+            android:checkable="true"
+            />
+
+
+    </group>
+
+
+    <group
+        android:id="@+id/group2">
+
+
+
+
+        <item
+            android:title="Support"
+            android:id="@+id/support"
+            android:checkable="true"
+            android:icon="@drawable/baseline_support_agent_24"/>
+
+
+
+        <item
+            android:title="Privacy"
+            android:id="@+id/privacy"
+            android:icon="@drawable/baseline_privacy_tip_24"/>
+
+        <item
+            android:title="Report"
+            android:id="@+id/report"
+            android:checkable="true"
+            android:icon="@drawable/baseline_report_24"/>
+
+
+
+
+    </group>
+
+
+
+
+
+
+
+
+
+
+
+</menu>
